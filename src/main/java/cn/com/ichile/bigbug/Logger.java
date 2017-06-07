@@ -15,7 +15,7 @@ public class Logger {
     private static final int E = 5;
     private static final String TAG_PREFIX = "TTT_";
     private static boolean showLog = true;
-    private static int level = 1;
+    private static int level = 6;
 
     public static void setShowLog(boolean show) {
         showLog = show;
