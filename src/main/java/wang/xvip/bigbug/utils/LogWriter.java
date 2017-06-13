@@ -1,4 +1,4 @@
-package cn.com.ichile.bigbug;
+package wang.xvip.bigbug.utils;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

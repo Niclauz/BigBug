@@ -1,4 +1,4 @@
-package cn.com.ichile.bigbug;
+package wang.xvip.bigbug.utils;
 
 import android.content.Context;
 import android.net.wifi.WifiInfo;

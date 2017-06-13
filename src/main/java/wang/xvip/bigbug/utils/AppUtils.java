@@ -1,4 +1,4 @@
-package cn.com.ichile.bigbug;
+package wang.xvip.bigbug.utils;
 
 import android.app.ActivityManager;
 import android.content.ComponentName;

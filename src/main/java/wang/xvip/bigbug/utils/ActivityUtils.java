@@ -1,6 +1,7 @@
-package cn.com.ichile.bigbug;
+package wang.xvip.bigbug.utils;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 
 /**
@@ -10,9 +11,9 @@ import android.content.Intent;
 
 public class ActivityUtils {
 
-    public static void startActivity(Activity activity, Class cls) {
-        Intent intent = new Intent(activity, cls);
-        activity.startActivity(intent);
+    public static void startActivity(Context context, Class cls) {
+        Intent intent = new Intent(context, cls);
+        context.startActivity(intent);
     }
 
     public static void startActivityAndFinish(Activity activity, Class cls) {

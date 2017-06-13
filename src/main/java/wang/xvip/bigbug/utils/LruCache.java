@@ -1,4 +1,4 @@
-package cn.com.ichile.bigbug;
+package wang.xvip.bigbug.utils;
 
 /**
  * FBI WARNING ! MAGIC ! DO NOT TOUGH !

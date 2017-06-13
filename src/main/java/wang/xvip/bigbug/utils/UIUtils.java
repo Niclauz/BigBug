@@ -1,4 +1,4 @@
-package cn.com.ichile.bigbug;
+package wang.xvip.bigbug.utils;
 
 import android.content.Context;
 
@@ -33,6 +33,10 @@ public class UIUtils {
         return (int) (px / density + 0.5f);
     }
 
+    public static int spToPx(Context context, float spValue) {
+        final float fontScale = context.getResources().getDisplayMetrics().scaledDensity;
+        return (int) (spValue * fontScale + 0.5f);
+    }
     /**
      * get screen width pixels
      *
